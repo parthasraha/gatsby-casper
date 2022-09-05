@@ -188,3 +188,19 @@ Isn't it beautiful.
 
 _[HTML]: Hyper Text Markup Language
 _[CSS]: Cascading Style Sheets
+
+## Wikilink test
+
+Internal page link
+[[github-link]]
+
+Wikistyle image
+![[computer.jpg]]
+
+Mermaid diagram
+```mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
+```
