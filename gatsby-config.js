@@ -37,7 +37,7 @@ module.exports = {
             resolve: 'gatsby-remark-obsidian',
             options: {
               titleToURL: require(`${__dirname}/src/utils/make-slug.js`),
-              // titleToURL: (slug) => `/${slug}`, // optional
+              titleToURL: (slug) => `/${slug}`, // optional
               markdownFolder: `${__dirname}/content`, // optional
               highlightClassName: 'highlight', // optional
             }
