@@ -32,6 +32,13 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          'gatsby-remark-mermaid',
+          {
+            resolve: 'gatsby-remark-obsidian',
+            options: {
+              titleToURL: require(`${__dirname}/src/utils/make-slug.js`)
+            }
+          },
           {
             resolve: 'gatsby-remark-responsive-iframe',
             options: {
@@ -47,13 +54,6 @@ module.exports = {
               maxWidth: 2000,
               quality: 100,
             },
-          },
-          'gatsby-remark-mermaid',
-          {
-            resolve: 'gatsby-remark-obsidian',
-            options: {
-              titleToURL: require(`${__dirname}/src/utils/make-slug.js`)
-            }
           },
         ],
       },
