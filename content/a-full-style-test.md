@@ -192,7 +192,7 @@ _[CSS]: Cascading Style Sheets
 ## Wikilink test
 
 Internal page link
-[[github-link]]
+[[github-link | github link]]
 
 Wikistyle image
 ![[computer.jpg]]
