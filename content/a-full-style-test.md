@@ -191,13 +191,13 @@ _[CSS]: Cascading Style Sheets
 
 ## Wikilink test
 
-Internal page link
+Internal page link - working
 [[github-link | github link]]
 
-Wikistyle image
+Wikistyle image - not working
 ![[computer.jpg]]
 
-Mermaid diagram
+Mermaid diagram - working
 ```mermaid
 sequenceDiagram
     Alice->>John: Hello John, how are you?
