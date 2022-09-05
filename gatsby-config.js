@@ -29,6 +29,27 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
+          'gatsby-remark-mermaid',
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+            },
+          },
+          {
+            resolve: 'gatsby-remark-obsidian',
+            options: {
+              titleToURL: require(`${__dirname}/src/utils/make-slug.js`)
+            }
+          }
+        ],
+      },
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
