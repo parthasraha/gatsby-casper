@@ -34,7 +34,7 @@ module.exports = {
       options: {
         name: 'image',
         /* changed source path */
-        path: `../../content/img`
+        path: `../../content/attachments`
         // path: path.join(__dirname, 'content'),
       },  
     },

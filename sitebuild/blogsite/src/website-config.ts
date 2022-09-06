@@ -56,8 +56,8 @@ export interface WebsiteConfig {
 const config: WebsiteConfig = {
   title: 'Blog',
   description: 'The platform',
-  coverImage: '../../../content/img/blog-cover.png',
-  logo: '../../../content/img/ghost-logo.png',
+  coverImage: '../../../content/attachments/blog-cover.png',
+  logo: '../../../content/attachments/ghost-logo.png',
   lang: 'en',
   siteUrl: 'https://gatsby-casper.netlify.com',
   facebook: 'https://www.facebook.com/ghost',
