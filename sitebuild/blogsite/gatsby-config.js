@@ -39,15 +39,6 @@ module.exports = {
       },  
     },
     {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'avatar',
-        /* changed source path */
-        path: `../../content/avatars`
-        // path: path.join(__dirname, 'content'),
-      },  
-    },
-    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
