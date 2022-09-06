@@ -23,20 +23,11 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'blog',
+        name: 'content',
         /* changed source path */
-        path: `../../content/blog`
+        path: `../../content`
         // path: path.join(__dirname, 'content'),
       },  
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'img',
-        /* changed source path */
-        path: `../../content/img`
-        // path: path.join(__dirname, 'content'),
-      },
     },
     {
       resolve: 'gatsby-transformer-remark',
