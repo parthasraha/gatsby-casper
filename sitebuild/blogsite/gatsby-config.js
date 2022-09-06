@@ -25,8 +25,8 @@ module.exports = {
       options: {
         name: 'content',
         /* changed source path */
-        path: `../../content`
-        // path: path.join(__dirname, 'content'),
+        // path: `../../content`
+        path: path.join(__dirname, 'src', 'content'),
       },  
     },
     {
