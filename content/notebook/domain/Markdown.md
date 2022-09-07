@@ -17,7 +17,7 @@ Next, you should be able to create links - like [this](https://standup-philosoph
 
 ### Images
 checking wikilink double bracket image style: 
-![[mental_programming.jpg]]
+Not working 
 
 - - -
 
