@@ -13,6 +13,8 @@ You can use [[Gatsby Garden]] to create your own Digital Garden from your [[Zett
 Attaching image like normal  link: 
 ![local image](../../attachments/mental_programming.jpg)
 
+recheck
+
 Further changes done with external link
 [google](https://www.google.com)
 
