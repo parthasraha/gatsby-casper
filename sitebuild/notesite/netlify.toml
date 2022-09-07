@@ -14,12 +14,6 @@
   # --strict aborts the build on any warnings
   # --verbose enables verbose output so that it's easier to see what mkdocs is doing but both strict, verbose not necessary
   # command = "pip install -r ./requirements.txt && mkdocs build --strict --verbose"
-  command = """
-    pip3 install -q poetry &&
-    poetry config virtualenvs.in-project true &&
-    poetry install -v &&
-    mkdocs build -d site
-  """
 
   # Check blogsite and also content/blog directory for changes 
   # If not specified, default it will check only current dir blogsite changes
