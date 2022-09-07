@@ -3,7 +3,9 @@
 mkdocs
 
 # Material theme
-mkdocs-material>=8.1.7
+# mkdocs-material>=8.1.7
+mkdocs-material
 
 # Wikilinks support
-mkdocs-roamlinks-plugin>=0.1.3
+# mkdocs-roamlinks-plugin>=0.1.3
+mkdocs-roamlinks-plugin
