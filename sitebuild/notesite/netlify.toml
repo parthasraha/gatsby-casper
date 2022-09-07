@@ -15,8 +15,6 @@
   # --verbose enables verbose output so that it's easier to see what mkdocs is doing but both strict, verbose not necessary
   # command = "pip install -r ./requirements.txt && mkdocs build --strict --verbose"
   command = """
-    restore_home_cache ".cache" "pip cache" &&
-    restore_cwd_cache '.venv' 'python virtualenv' &&
     pip3 install -q poetry &&
     poetry config virtualenvs.in-project true &&
     poetry install -v &&
