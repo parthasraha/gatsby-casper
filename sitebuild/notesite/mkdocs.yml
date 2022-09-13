@@ -32,4 +32,4 @@ plugins:
   - roamlinks
   - exclude:
       glob:
-        - ../../content/blog
+        - blog/*
