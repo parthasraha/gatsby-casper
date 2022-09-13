@@ -1,6 +1,6 @@
 site_name: My Notebook
 site_url: https://parthaspace.gitlab.io/infobase
-site_dir: ../../site
+site_dir: ./site
 docs_dir: ../../content
 
 theme:
