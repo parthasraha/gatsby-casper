@@ -1,5 +1,5 @@
 site_name: My Notebook
-site_url: https://ib-mytemplate-github.netlify.app
+site_url: https://ib-mytemplate-github.netlify.app/notebook
 site_dir: ./site
 docs_dir: ../../content
 
