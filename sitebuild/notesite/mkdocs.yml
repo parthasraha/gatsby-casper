@@ -3,9 +3,9 @@ site_url: https://ib-mytemplate-github.netlify.app/notebook
 site_dir: ./site
 docs_dir: ../../content
 
-nav:
-  - Home: './notebook/index.md'
-  - 'Issue Tracker': 'https://example.com/'
+# nav:
+#  - Home: './notebook/index.md'
+#  - 'Issue Tracker': 'https://example.com/'
 
 theme:
   name: material
