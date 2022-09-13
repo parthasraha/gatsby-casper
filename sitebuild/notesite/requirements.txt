@@ -4,7 +4,10 @@ mkdocs>=1.1
 
 # Material theme
 # mkdocs-material>=8.1.7
-mkdocs-material
+mkdocs-material>=5.0
+Pygments>=2.4
+markdown>=3.2
+pymdown-extensions>=7.0
 
 # Wikilinks support
 # mkdocs-roamlinks-plugin>=0.1.3
