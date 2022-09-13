@@ -3,6 +3,10 @@ site_url: https://ib-mytemplate-github.netlify.app
 site_dir: ./site
 docs_dir: ../../content
 
+nav:
+  - Home: './notebook/index.md'
+  - 'Issue Tracker': 'https://example.com/'
+
 theme:
   name: material
   palette:
