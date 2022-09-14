@@ -1,4 +1,5 @@
 site_name: My Notebook
+# below redundant if redirect of root to notebook folder done in netlify.toml
 site_url: https://ib-mytemplate-github.netlify.app/notebook
 site_dir: ./site
 docs_dir: ../../content
@@ -8,6 +9,7 @@ docs_dir: ../../content
 #  - 'Issue Tracker': 'https://example.com/'
 extra:
   # for linking logo/icon to subdir instead of default root domain
+  # redundant if redirect of root to notebook folder done in netlify.toml
   homepage: https://ib-mytemplate-github.netlify.app/notebook
 
 theme:
