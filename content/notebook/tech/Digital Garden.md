@@ -11,9 +11,10 @@ source: '[Digital Garden Setup](https://nesslabs.com/digital-garden-set-up)'
 You can use [[Gatsby Garden]] to create your own Digital Garden from your [[Zettelkasten]] notes.
 
 Attaching image like normal  link: 
-![image1](../attachments/mental_programming.jpg)
+![image1](../../attachments/mental_programming.jpg)
 
-recheck
+Attaching image like wikilink
+![[testimg-cover.jpg]]
 
 Further changes done with external link
 [google](https://www.google.com)
