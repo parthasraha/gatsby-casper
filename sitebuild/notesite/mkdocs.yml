@@ -6,8 +6,8 @@ docs_dir: ../../content
 # nav:
 #  - Home: './notebook/index.md'
 #  - 'Issue Tracker': 'https://example.com/'
-# extra:
-#   homepage: https://ib-mytemplate-github.netlify.app/notebook
+extra:
+  homepage: https://ib-mytemplate-github.netlify.app/notebook
 
 theme:
   name: material
