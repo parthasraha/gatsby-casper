@@ -39,3 +39,4 @@ plugins:
   - exclude:
       glob:
         - blog/*
+        - index.md
