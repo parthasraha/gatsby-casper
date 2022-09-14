@@ -43,3 +43,4 @@ plugins:
       glob:
         - blog/*
         - index.md
+# index.md in content (doc_dir) to be ignored as for mastersite
