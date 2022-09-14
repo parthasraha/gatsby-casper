@@ -21,7 +21,7 @@
 
   # Redirect to notebook folder
   [[redirects]]
-    from = "/*"
-    to = "/notebook/:splat"
+    from = "/"
+    to = "/notebook"
     status = 301
     force = true
