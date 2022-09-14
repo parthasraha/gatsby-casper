@@ -7,6 +7,7 @@ docs_dir: ../../content
 #  - Home: './notebook/index.md'
 #  - 'Issue Tracker': 'https://example.com/'
 extra:
+  # for linking logo/icon to subdir instead of default root domain
   homepage: https://ib-mytemplate-github.netlify.app/notebook
 
 theme:
